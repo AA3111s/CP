@@ -54,3 +54,24 @@ the process of conversion of a.cpp to a.out is **compilation** while the process
 ## Lec - 12
 
 ### Precomputation Techniques
+
+- added factorial.cpp code with precomputing the factorial values
+
+### Hashing:
+
+- any global arrays are intialized 0
+- we can hash only when array's maximum given size is 10^7
+
+1. How to map negative numbers?
+- by directly using STL, maps or unorderered maps
+
+- or by converting all numbers positive by adding the least negative number's absolute value to all values 
+- then hashing for the same 
+- then while giving the count we will add 6 to the element and give the count of that element
+
+
+## Lec - 13
+
+### Prefix-sum in 1D/2D arrays:
+
+- 
