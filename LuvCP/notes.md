@@ -74,4 +74,6 @@ the process of conversion of a.cpp to a.out is **compilation** while the process
 
 ### Prefix-sum in 1D/2D arrays:
 
+- in prefix sum problems use 1-indexing 
+- every index stores the sum of all elements behind it + current index value
 - 
