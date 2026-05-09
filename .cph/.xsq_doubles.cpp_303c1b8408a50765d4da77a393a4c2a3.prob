@@ -1,0 +1,1 @@
+{"name":"Local: xsq_doubles","url":"/Users/aa3111s/Downloads/coding/CP/xsq_doubles.cpp","tests":[{"id":1777710103613,"input":"5\nwow\ntata\na\nab\nlala\n\n","output":"Yes\nYes\nNo\nNo\nYes\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/aa3111s/Downloads/coding/CP/xsq_doubles.cpp","group":"local","local":true}

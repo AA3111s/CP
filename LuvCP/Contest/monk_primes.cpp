@@ -10,7 +10,7 @@ char lower(char c){
 }
 
 int main(){
-    string s;
+    std::string s;
     cin >> s;
 
     for(int i = 0; i < s.size(); i++){
