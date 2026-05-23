@@ -57,7 +57,7 @@ the process of conversion of a.cpp to a.out is **compilation** while the process
 
 - added factorial.cpp code with precomputing the factorial values
 
-### Hashing:
+### Hashing
 
 - any global arrays are intialized 0
 - we can hash only when array's maximum given size is 10^7
@@ -65,21 +65,31 @@ the process of conversion of a.cpp to a.out is **compilation** while the process
 1. How to map negative numbers?
 
 - by directly using STL, maps or unorderered maps
-- or by converting all numbers positive by adding the least negative number's absolute value to all values 
-- then hashing for the same 
+- or by converting all numbers positive by adding the least negative number's absolute value to all values
+- then hashing for the same
 - then while giving the count we will add 6 to the element and give the count of that element
-
 
 ## Lec - 13
 
-### Prefix-sum in 1D/2D arrays:
+### Prefix-sum in 1D/2D arrays
 
-- in prefix sum problems use 1-indexing 
+- in prefix sum problems use 1-indexing
 - every index stores the sum of all elements behind it + current index value
-- 
 
-
-#### Notes while solving:
+#### Notes while solving
 
 - large arrays when declared inside the main() function are put on the stack by the main() function which is relatively small
 - such large arrays when declared globally are put on the "Data Segment" memory, which is much larger
+
+## Lec - 14
+
+### GCD related question for precomputation
+
+- gcd of (n, 0) is always n, gcd of any number with 0 is the number itself
+- forward and backward precomputataion technique that is not usual to come by intuition
+
+## Lec - 15
+
+### Problem on precomputation
+
+``` https://www.hackerrank.com/challenges/crush/problem ```
