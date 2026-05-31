@@ -9,7 +9,6 @@ Constraints
 1 <= a[i][j] <= 10^9
 1 <= Q <= 10^5
 1 <= a,b, c,d <= N
-
 */
 
 
@@ -18,7 +17,6 @@ using namespace std;
 int const N = 1e3 + 10;
 int ar[N][N];
 long long pf[N][N];
-
 
 int main(){
     int n;

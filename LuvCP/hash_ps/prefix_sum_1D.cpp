@@ -8,9 +8,7 @@ Given array a of N-integers. Given Q queries
 1 <= a[i] <= 10^9
 1 <= Q<= 10^5
 1 <= L, R <= N
-
 */ 
-
 
 
 #include <bits/stdc++.h>
@@ -18,7 +16,6 @@ using namespace std;
 int const N = 1e5 + 10;
 int a[N];
 int pf[N];
-
 
 int main(){
     int n;
@@ -34,5 +31,4 @@ int main(){
         cin >> l >> r;
         cout << pf[r] - pf[l-1] << "\n";
     }
-
 }

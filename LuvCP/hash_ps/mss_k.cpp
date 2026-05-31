@@ -10,8 +10,6 @@
 // Explanation: arr2 + arr3 = 700, which is maximum.
 
 
-
-
 #include <bits/stdc++.h>
 using namespace std;
 
