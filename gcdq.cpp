@@ -8,9 +8,9 @@ int main(){
    while(t--){
        int n, q;
        cin >> n >> q;
-       int a[n];
-       int forward[n];
-       int backward[n];
+       int a[n+10];
+       int forward[n+10];
+       int backward[n+10];
        forward[0] = backward[n+1] = 0;
        
        for(int i = 1; i <= n; i++){
