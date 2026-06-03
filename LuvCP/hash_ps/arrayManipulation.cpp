@@ -12,7 +12,7 @@ int main(){
    cin >> a >> b >> d;
     arr[a] += d;
     arr[b + 1] -= d;
-
+    }
     for(int i = 1; i <= n; i++){
         arr[i] += arr[i - 1];
     }
@@ -23,5 +23,4 @@ int main(){
         }
     }
     cout << max << endl;
-
 }
