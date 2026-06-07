@@ -15,6 +15,5 @@ int main(){
    for(int i = 0; i < pattern.size(); i++){
      hsh1[pattern[i]] = s[i];
      hsh2[s[i]] = pattern[i];
-     
    }
 }
