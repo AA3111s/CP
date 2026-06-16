@@ -30,7 +30,6 @@ int main(){
                 sum += abs(hsh[i]);
             }
         }
-
         cout << sum << endl;
     }
 }
