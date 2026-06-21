@@ -6,14 +6,20 @@ int main(){
   public:
     int countWords(vector<string> &list) {
         // code here.
-        int N = 1e4
-        int counter = 0;
-        for(auto &value : list){
-            int a[N];
-            a[list[value]]++;
-            if(list[value] >= 2) counter++;
+        unordered_map<string, int> m;
+
+        for(const string &word x : list){
+            m[word]++;
         }
-        cout << counter;
+
+        int counter = 0;
+
+        for(auto const &pair : m){
+            if(pair.second == 2){
+                counter++;
+            }
+        }
+        return counter;
     }
 };
 }
