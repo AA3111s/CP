@@ -8,7 +8,7 @@ int main(){
         // code here.
         unordered_map<string, int> m;
 
-        for(const string &word x : list){
+        for(const string &word : list){
             m[word]++;
         }
 
