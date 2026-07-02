@@ -2,18 +2,27 @@
 using namespace std;
 
 int main(){
-    const int MAXR = 100;
-    int n = 0;
-    
-    for(int i = 0; i < MAXR; i++){
-        int c;
-        cin >> c;
-        n += c;
+
+    string a, b;
+    cin >> a >> b;
+
+    int value1 = 0;
+    int value2 = 0;
+
+    for(int i = 0; i < a.size(); i++){
+        value1 += tolower(a[i]);
+        value2 += tolower(b[i]);
+
+       if(value1 < value2){
+            cout << "-1\n";
+            break;
+        }
+        else if(value1 > value2){
+            cout << "1\n";
+            break;
+        }
+    } 
+    if(value1 == value2){
+        cout << "0\n";
     }
-    
-    cout << n << endl;
-    
-    return 0;
 }
-
-
